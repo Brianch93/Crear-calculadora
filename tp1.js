@@ -5,6 +5,7 @@ let num2= parseInt(prompt("Ahora ingrese otro número"));
 alert("Usted ingreso los siguientes números: (" + num1 + ") y (" + num2 + ")");
 let cuenta= prompt("Ahora indique que operación desea realizar: (+)suma (-)resta (*)multiplicación (/)división");
 let mensaje;
+
 switch (cuenta) {
     case "+" :
         mensaje=("El total de la suma es: " + (num1+num2))
@@ -22,4 +23,5 @@ switch (cuenta) {
             mensaje=("El total de la división es: " + (num1/num2))
             break;
 }
+
 alert(mensaje)
